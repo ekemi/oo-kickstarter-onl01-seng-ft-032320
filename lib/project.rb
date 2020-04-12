@@ -1,4 +1,4 @@
-class Project 
+class Project
 
   attr_accessor :backers,:title
 
@@ -8,7 +8,7 @@ class Project
   end
   def add_backer(baker)
 
-    @backers << backer 
+    @backers << backer
     backer.backed_projects << self
 
   end
